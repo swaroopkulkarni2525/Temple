@@ -24,7 +24,7 @@
         app:textAllCaps="true" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/spw"
         android:layout_width="268dp"
         android:layout_height="73dp"
         android:layout_marginStart="48dp"
@@ -35,10 +35,10 @@
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
+        app:layout_constraintTop_toBottomOf="@+id/semail" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/ssignup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
@@ -46,10 +46,10 @@
         android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
+        app:layout_constraintTop_toBottomOf="@+id/spsw2" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/semail"
         android:layout_width="268dp"
         android:layout_height="72dp"
         android:layout_marginStart="48dp"
@@ -62,7 +62,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/spsw2"
         android:layout_width="268dp"
         android:layout_height="74dp"
         android:layout_marginStart="48dp"
@@ -72,6 +72,6 @@
         android:textColorHint="@color/white"
         android:inputType="textPassword"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/spw" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
