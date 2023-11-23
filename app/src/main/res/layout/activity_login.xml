@@ -26,50 +26,53 @@
 
     <EditText
         android:id="@+id/lpw"
-        android:layout_width="268dp"
-        android:layout_height="73dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="52dp"
+        android:layout_width="275dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="32dp"
         android:ems="10"
         android:hint="password"
-        android:textColorHint="@color/white"
         android:inputType="textPassword"
         android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.477"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/luname" />
 
     <EditText
         android:id="@+id/luname"
-        android:layout_width="271dp"
-        android:layout_height="70dp"
-        android:layout_marginTop="64dp"
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="76dp"
         android:ems="10"
         android:hint="username"
-        android:textColorHint="@color/white"
         android:inputType="text"
         android:textColor="@color/white"
+        android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.338"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
         android:id="@+id/llgoin"
-        android:layout_width="131dp"
-        android:layout_height="69dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="60dp"
+        android:layout_width="136dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="68dp"
         android:text="login"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spw" />
+        app:layout_constraintTop_toBottomOf="@+id/lpw" />
 
     <Button
         android:id="@+id/lsignup"
-        android:layout_width="98dp"
-        android:layout_height="62dp"
-        android:layout_marginTop="60dp"
+        android:layout_width="121dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="68dp"
         android:text="signup"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.222"
         app:layout_constraintStart_toEndOf="@+id/llgoin"
-        app:layout_constraintTop_toBottomOf="@+id/spw" />
+        app:layout_constraintTop_toBottomOf="@+id/lpw" />
 </androidx.constraintlayout.widget.ConstraintLayout>
