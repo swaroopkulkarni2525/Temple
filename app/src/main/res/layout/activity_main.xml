@@ -22,5 +22,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
 
-        app:srcCompat="@drawable/om_mobile_wallpapers_204_20160814_1048354168" />
+        app:srcCompat="@drawable/bg1" />
 </androidx.constraintlayout.motion.widget.MotionLayout>
