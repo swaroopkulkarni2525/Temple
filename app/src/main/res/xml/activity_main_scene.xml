@@ -63,7 +63,18 @@
             motion:maxVelocity="6.67" />
     </Transition>
 
-    <ConstraintSet android:id="@+id/start">
+    <ConstraintSet>
+        <Constraint
+            motion:layout_constraintVertical_bias="0.521"
+            android:layout_height="365dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintHorizontal_bias="0.557"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="288dp"
+            android:id="@+id/imageview"
+            motion:layout_editor_absoluteY="208dp" />
     </ConstraintSet>
 
     <ConstraintSet android:id="@+id/end">
