@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Temple</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="Close_nav">close Navigation Drawer</string>
 </resources>
